@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.OuterContainer {
+  background-color: #e0e0e0;
+  height: 100vh;
+  padding: 10px;
+  padding-top: 50px;
+  background: #94c2b7;
+  background: linear-gradient(225deg, #85afa5, #9ed0c4);
+  box-shadow: -5px 5px 10px #7ba198, 5px -5px 10px #ade3d6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.eachChallenge {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px 0px;
+  margin: auto;
+  width: 50%;
+  border-radius: 14px;
+  background: linear-gradient(225deg, #85afa5, #9ed0c4);
+  box-shadow: -5px 5px 10px #7ba198, 5px -5px 10px #ade3d6;
+  justify-content: space-between;
+  margin-bottom: 30px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.challengeNo {
+  padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.challengeName {
+  flex: 1;
+  text-align: center;
+}
+
+.dayNo {
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .eachChallenge{
+    width: 100%;
   }
 }
