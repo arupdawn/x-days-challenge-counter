@@ -8,17 +8,27 @@
   box-shadow: -5px 5px 10px #7ba198, 5px -5px 10px #ade3d6;
 }
 
-.eachChallenge {
-  display: flex;
-  padding: 20px 0px;
-  margin: auto;
-  width: 50%;
+.challengebox{
   border-radius: 14px;
   background: linear-gradient(225deg, #85afa5, #9ed0c4);
   box-shadow: -5px 5px 10px #7ba198, 5px -5px 10px #ade3d6;
+  margin: auto;
+  width: 50%;
+}
+
+.eachChallenge {
+  display: flex;
+  padding: 20px 0px;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   color: white;
+  border-bottom: 1px solid rgba(240, 248, 255, 0.247);
+}
+.eachChallenge:hover{
+  opacity: 0.8;
+  background-color: rgba(218, 218, 218, 0.178);
+  cursor: pointer;
+  border-radius: 14px;
 }
 
 .challengeNo {
@@ -35,8 +45,8 @@
   padding-right: 20px;
 }
 
-@media screen and (max-width: 769px) {
-  .eachChallenge{
+@media screen and (max-width: 426px) {
+  .challengebox{
     width: 100%;
   }
 }

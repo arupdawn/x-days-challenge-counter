@@ -16,17 +16,38 @@ function App() {
     <div className="App">
       <div className="OuterContainer">
 
-        <div className="eachChallenge">
-          <div className="challengeNo">1.) </div>
-          <div className="challengeName">#90DaysReadingChallenge</div>
-          <div className="dayNo">Day : {diffDays()}</div>
-        </div>
+        <div className="challengebox">
+          <div className="eachChallenge">
+            <div className="challengeNo">1.) </div>
+            <div className="challengeName">#90DaysReadingChallenge</div>
+            <div className="dayNo">Day : {diffDays()}</div>
+          </div>
 
-        {/* <div className="eachChallenge">
-          <div className="challengeNo">1.) </div>
-          <div className="challengeName">#90DaysWritingChallenge.......................................</div>
-          <div className="dayNo">Day : {diffDays()}</div>
-        </div> */}
+          <div className="eachChallenge">
+          <div className="challengeNo">2.) </div>
+          <div className="challengeName">#90DaysNoSugarChallenge.</div>
+          <div className="dayNo">Day : {diffDays()-4}</div>
+          </div>
+
+          <div className="eachChallenge">
+          <div className="challengeNo">3.) </div>
+          <div className="challengeName">#90Days3MinPlankChallenge.</div>
+          <div className="dayNo">Day : {diffDays()-4}</div>
+          </div>
+
+          <div className="eachChallenge">
+          <div className="challengeNo">4.) </div>
+          <div className="challengeName">#90Days5KWalkChallenge.</div>
+          <div className="dayNo">Day : {diffDays()-4}</div>
+          </div>
+
+          <div className="eachChallenge">
+          <div className="challengeNo">5.) </div>
+          <div className="challengeName">#90LIstenPodcastChallenge.</div>
+          <div className="dayNo">Day : {diffDays()-4}</div>
+          </div>
+
+        </div>
 
       </div>
     </div>
